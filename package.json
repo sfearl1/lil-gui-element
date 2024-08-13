@@ -1,0 +1,33 @@
+{
+  "name": "lil-gui-element",
+  "version": "1.0.0",
+  "description": "A low-code, declarative web component that wraps lil-gui to configure a custom-props control panel entirely in HTML/CSS.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "lil-gui",
+    "web-component",
+    "javascript",
+    "css-custom-properties",
+    "cssom"
+  ],
+  "author": "Scott Earl",
+  "license": "MIT",
+  "files": [
+    "dist/",
+    "README.md",
+    "LICENSE"
+  ],
+  "devDependencies": {
+    "lil-gui": "^0.19.2",
+    "typescript": "^5.5.4",
+    "vite": "^5.4.0",
+    "vite-plugin-dts": "^4.0.2"
+  }
+}
